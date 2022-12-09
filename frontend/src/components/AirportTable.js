@@ -56,8 +56,9 @@ export default function AirportTable() {
     }
 
   return (
-    <div>
-    <Select
+    <div style={{display:'flex', flexDirection: 'column', padding: '25px'}}>
+    <h1>Manage Airports</h1>
+    <Select style={{alignSelf: 'center', width : '200px'}}
     labelId="Status"
     id="demo-simple-select"
     value={filter}
