@@ -1,11 +1,8 @@
 import React from 'react';
-import Switch from '@mui/material/Switch'
-import axios from "axios"
 import { useState} from 'react';
 import TableCell from '@mui/material/TableCell';
 import MySwitch from './MySwitch';
 import TableRow from '@mui/material/TableRow';
-import { Tab } from '@mui/material';
 
 export default function AirportTableRow(props){
 
